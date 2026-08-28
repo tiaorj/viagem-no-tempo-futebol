@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next"; import { siteConfig } from "@/data/site-config"; export default function sitemap():MetadataRoute.Sitemap{return [{url:siteConfig.domain,lastModified:new Date()},{url:`${siteConfig.domain}/privacidade`,lastModified:new Date()}]}
