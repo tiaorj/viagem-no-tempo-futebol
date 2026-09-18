@@ -1,1 +1,12 @@
-export const siteConfig = { name: "Viagem no Tempo Futebol", domain: "https://viagemnotempofutebol.directti.dev.br", description: "Viaje pela história do futebol e descubra como nasceram clubes, competições, regras, rivalidades e momentos que marcaram o esporte.", contact: "parcerias@viagemnotempofutebol.com.br", social: { instagram: "https://instagram.com/viagemnotempofutebol", youtube: "https://youtube.com/@viagemnotempofutebol", tiktok: "https://tiktok.com/@viagemnotempofutebol", facebook: "https://facebook.com/viagemnotempofutebol" } } as const;
+export const siteConfig = { 
+    name: "Viagem no Tempo Futebol", 
+    domain: "https://viagemnotempofutebol.directti.dev.br", 
+    description: "Viaje pela história do futebol e descubra como nasceram clubes, competições, regras, rivalidades e momentos que marcaram o esporte.", 
+    contact: "viagemnotempofutebol@gmail.com", 
+    social: { 
+        instagram: "https://instagram.com/viagemnotempofutebol", 
+        youtube: "https://youtube.com/@viagemnotempofutebol", 
+        tiktok: "https://tiktok.com/@viagemnotempofutebol", 
+        facebook: "https://facebook.com/viagemnotempofutebol" 
+    } 
+} as const;
